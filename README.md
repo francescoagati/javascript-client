@@ -1,10 +1,24 @@
 #veespo-api
 
-### Javascript Wrapper for Veespo Api
+## Javascript Wrapper for Veespo Api
 
-in your code:
+### Install with bower in your project directory
 
- ```javascript
+```
+  bower install https://github.com/francescoagati/javascript-client.git --save
+```
+
+
+
+
+###in your code:
+
+```html
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="dist/veespo-api.js"></script>    
+```
+
+```javascript
 
 	var api_path = 'http://production.veespo.com';
 	var token    = 'TOKEN GENERATED FROM THE API SERVER SIDE';
