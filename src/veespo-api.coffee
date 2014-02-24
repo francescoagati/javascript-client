@@ -1,0 +1,1 @@
+veespo = {} unless veespo?
