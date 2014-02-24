@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/francescoagati/javascript-client",
   "devDependencies": {
-    "gulp": "^3.5.2"
+    "gulp": "^3.5.2",
+    "coffee-script": "^1.7.1",
+    "gulp-coffee": "^1.4.1"
   }
 }
