@@ -12,7 +12,7 @@ in your code:
 	var api = veespo.api({api_path:api_path,token:token});
 
 	//the method get return a jQuery promise
-	api.get('/v1/info/category/linee-superficie-test/targets').then(function(response) {
+	api.get('/v1/info/category/cities/targets').then(function(response) {
 	    console.log(response.data);
 	});
 
