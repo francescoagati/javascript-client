@@ -21,5 +21,8 @@
     "coffee-script": "^1.7.1",
     "gulp-coffee": "^1.4.1",
     "gulp-util": "^2.2.14"
+  },
+  "dependencies": {
+    "ecstatic": "^0.4.13"
   }
 }

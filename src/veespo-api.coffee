@@ -3,9 +3,8 @@ class Api
     @token   = params.token
     @api_path = params.api_path
   get: (path,params={}) ->
-    params.callback="?"
-    jQuery.get("#{api_path}/#{path}",params)
+    params.token = @token
+    jQuery.getJSON("#{@api_path}/#{path}?callback=?",params)
 
-
-veespo = {} unless veespo?
-
+window.veespo = {} unless window.veespo?
+veespo.api = (params) -> new Api params
